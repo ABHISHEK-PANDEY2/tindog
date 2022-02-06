@@ -1,0 +1,138 @@
+#title{
+  background-color: #ff4c68;
+
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3%;
+  padding-top: 3%;
+
+}
+.cta{
+  color: white;
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+#footer{
+  text-align: center;
+  background-color: #fff;
+}
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+.head-image{
+  margin:0 0 0 100px ;
+  transform: rotate(30deg);
+  width:60%;
+  position: absolute;
+  z-index: 0;
+}
+section#features {
+    padding: 120px 100px;
+    position:relative;
+    z-index: 2;
+    background-color: #fff;
+}
+#testimonials{
+  background-color:#ef8172;
+  text-align: center;
+  color: #fff;
+  line-height: 2em;
+  padding: 40px;
+}
+.testimonial-img{
+  width:7%;
+  border-radius: 100%;
+  margin:30px 20px 50px 20px;
+
+}
+#press{
+  text-align: center;
+  background-color: #ef8172;
+}
+.press-logo{
+  width:10%;
+  margin: 20px 30px 70px 30px;
+}
+#pricing{
+  padding: 30px;
+}
+.price-col{
+  padding: 3%;
+}
+.card{
+  text-align: center;
+}
+.feature{
+  text-align: center;
+  font-size: 1.5rem;
+  color: #8f8f8f;
+}
+.feature-icon {
+    color: #ef8172;
+    font-size:6rem;
+}
+.feature-icon:hover{
+  color: #ff4c68;
+}
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 40px;
+font-family: 'Quicksand', sans-serif;}
+.navbar-brand{
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-bottom: 4.5rem;
+}
+.navbar-nav{
+  margin-left: 7%;
+}
+.nav-item{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#navbarSupportedContent{
+  padding-bottom: 50px;
+  font-size: 1.2em;
+}
+.fabf{
+  margin: 4% 2% 3% 2%;
+}
+.footer-icon{
+  padding: 5% auto 1% auto;
+}
+h1{
+font-family: 'Acme', sans-serif;  font-size: 4.5rem;
+font-weight: bold;
+  line-height: 1.5;
+  color:white;
+margin-left: 15px;
+}
+h2{
+  font-size: 3rem;
+  font-family: 'Acme', sans-serif;
+  font-weight: bold;
+  line-height: 2em;
+}
+h3{
+  color: black;
+  font-weight: bold;
+}
+@media (max-width : 1240px) {
+.head-image{
+  position: static;
+  transform: rotate(0);
+
+}
+#title{
+  text-align: center;
+}
+}
+@media (max-width : 1240px) and (min-width : 764px){
+  .head-image{
+    position: static;
+    transform: rotate(0);
+    width: 100%;
+  }
+}
